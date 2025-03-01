@@ -7,14 +7,24 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: coral;
 }
+body {
+    background-image: url("CurrencyImage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
 .container{
-    background-color: pink;
-    padding: 2rem;
+    background-color: #6C91BF;
+    padding: 1rem;
     border-radius: 2rem;
-    min-height: 45vh;
-    width: 40vh;
+    min-height: 25vh;
+    width: 50vh;
+    margin-bottom: 22vh;
 }
 form{
     margin: 2rem 0 1rem 0;
